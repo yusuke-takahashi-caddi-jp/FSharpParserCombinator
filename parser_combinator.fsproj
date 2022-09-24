@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Parser.fs" />
+    <Compile Include="ParserTestUtils.fs" />
+    <Compile Include="ParserTest.fs" />
+    <Compile Include="JsonParser.fs" />
+    <Compile Include="JsonParserTest.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.2" />
+    <PackageReference Include="Expecto" Version="9.0.4" />
+    <PackageReference Include="FsCheck" Version="2.16.5" />
+    <PackageReference Include="Hopac" Version="0.5.1" />
+  </ItemGroup>
+
+</Project>

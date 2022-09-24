@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "msbuild",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"label": "Build: parser_combinator.fsproj",
+			"detail": "Build the parser_combinator.fsproj project using dotnet build"
+		}
+	]
+}
